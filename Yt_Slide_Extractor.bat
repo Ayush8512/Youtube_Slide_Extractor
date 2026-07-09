@@ -11,7 +11,6 @@ echo.
 
 :: Ek chhota timer taaki server pehle start ho jaye
 ping 127.0.0.1 -n 3 > nul
-start "" "http://127.0.0.1:8000"
 
 :: Python server start karne ki command
 python app.py
