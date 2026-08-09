@@ -1,0 +1,9 @@
+fastapi>=0.95.0
+uvicorn>=0.20.0
+yt-dlp>=2023.3.4
+Pillow>=9.0.0
+python-pptx>=0.6.21
+pytesseract>=0.3.10
+pywebview>=4.0.0
+pydantic>=1.10.0
+python-dotenv>=1.0.0

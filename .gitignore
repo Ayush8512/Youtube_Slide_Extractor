@@ -1,0 +1,14 @@
+# Python & Temp files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+temp_*
+*.tmp
+
+# Environment variables (secret keys)
+.env
+
+# Downloads / Temp workspace binaries
+bin/
+*.exe
