@@ -2237,6 +2237,12 @@ def generate_file(data: GenerateData, bg_tasks: BackgroundTasks):
     bg_tasks.add_task(cleanup_file, out_file)
     return FileResponse(path=out_file, filename=os.path.basename(out_file), media_type=mt)
 
+try:
+    import gradio as gr
+    demo = gr.mount_gradio_app(app, gr.Blocks(), path="/")
+except Exception:
+    demo = None
+
 def run_server():
     host = os.getenv("HOST", "127.0.0.1")
     port = int(os.getenv("PORT", 8000))
