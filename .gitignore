@@ -1,14 +1,57 @@
-# Python & Temp files
+# Python & Bytecode
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.venv/
+
+# Environment Secrets
+.env
+.env.local
+
+# Executables & Binaries
+*.exe
+*.dll
+*.so
+*.dylib
+bin/
+
+# Temporary files & outputs
 temp_*
 *.tmp
+*.log
+*.zip
+*.mp4
+*.mp3
+*.wav
+*.m4a
+*.webm
+*.srt
+*.vtt
+output/
 
-# Environment variables (secret keys)
-.env
-
-# Downloads / Temp workspace binaries
-bin/
-*.exe
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
